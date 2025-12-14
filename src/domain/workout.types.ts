@@ -1,12 +1,10 @@
 export type WorkoutSplit =
-    | "upper"
-    | "lower"
-    | "push"
-    | "pull"
+    | "back_traps"
+    | "chest_calves"
+    | "deadlift"
+    | "shoulders_abs"
     | "legs"
-    | "full"
-    | "cardio"
-    | "other";
+    | "arms";
 
 export type SessionStep = "idle" | "choose_split" | "collecting";
 

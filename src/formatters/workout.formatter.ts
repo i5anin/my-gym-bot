@@ -68,24 +68,21 @@ export class WorkoutFormatter {
 
     private splitLabel(split: WorkoutSplit): string {
         switch (split) {
-            case "upper":
-                return "Верх";
-            case "lower":
-                return "Низ";
-            case "push":
-                return "Push";
-            case "pull":
-                return "Pull";
+            case "back_traps":
+                return "Спина / Шраги";
+            case "chest_calves":
+                return "Грудь / Икры";
+            case "deadlift":
+                return "Становая";
+            case "shoulders_abs":
+                return "Плечи / Пресс";
             case "legs":
                 return "Ноги";
-            case "full":
-                return "Full body";
-            case "cardio":
-                return "Кардио";
-            case "other":
-                return "Другое";
+            case "arms":
+                return "Руки";
         }
     }
+
 
     private escape(value: string): string {
         return value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");

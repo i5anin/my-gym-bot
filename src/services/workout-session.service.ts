@@ -2,6 +2,26 @@ import type { Exercise, ISODate, SetEntry, Workout, WorkoutSession, WorkoutSplit
 import type { WorkoutRepository } from "@/repositories/workout.repository";
 import type { WorkoutSessionRepository } from "@/repositories/workout-session.repository";
 import type { WorkoutLineParser } from "@/parser/workout-line.parser";
+import { SPLIT_KEYWORDS } from "@/domain/workout.split-keywords";
+
+export class WorkoutSplitDetector {
+    detect(text: string): WorkoutSplit | null {
+        const normalized = text.toLowerCase();
+
+        for (const [split, keywords] of Object.entries(SPLIT_KEYWORDS) as [
+            WorkoutSplit,
+            readonly string[],
+        ][]) {
+            if (keywords.some((k) => normalized.includes(k))) {
+                return split;
+            }
+        }
+
+        return null;
+    }
+}
+
+
 
 export class WorkoutSessionService {
     constructor(
