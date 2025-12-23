@@ -4,7 +4,7 @@
   "description": "Current project path and file mapping configuration",
   "author": "Sergey",
   "builtinMappingsEnabled": true,
-  "language": "ru",
+  "language": "en",
   "mappings": {
     "files": {
       "src/main.ts": "Точка входа приложения (composition root)",
