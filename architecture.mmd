@@ -1,0 +1,66 @@
+flowchart LR
+    main[main.ts\nТочка входа]
+
+    subgraph app[Приложение]
+        app_init[app\nИнициализация и конфигурация]
+    end
+
+    subgraph commands[Командный слой]
+        workout_commands[workout.commands.ts\nРегистрация и обработка команд]
+    end
+
+    subgraph domain[Доменная модель]
+        split_keywords[workout.split-keywords.ts\nРазбор ключевых слов]
+        workout_types[workout.types.ts\nДоменные типы]
+    end
+
+    subgraph parser[Парсинг входных данных]
+        line_parser[workout-line.parser.ts\nПарсинг строки тренировки]
+    end
+
+    subgraph formatters[Форматирование вывода]
+        workout_formatter[workout.formatter.ts\nФорматирование тренировки]
+    end
+
+    subgraph services[Use cases / Бизнес-логика]
+        workout_session_service[workout-session.service.ts\nЛогика сессии тренировки]
+    end
+
+    subgraph repositories[Контракты репозиториев]
+        workout_repo[workout.repository.ts\nРепозиторий тренировок]
+        workout_session_repo[workout-session.repository.ts\nРепозиторий сессий]
+    end
+
+    subgraph inmemory[In-memory инфраструктура]
+        inmemory_workout[in-memory-workout.repository.ts]
+        inmemory_session[in-memory-workout-session.repository.ts]
+    end
+
+    subgraph shared[Общая инфраструктура]
+        subgraph api[API слой]
+            axios[axios.instance.ts\nHTTP клиент]
+            commands_api[commands.api.ts\nAPI команд]
+        end
+        utils[colorize.ts\nУтилиты]
+        config[env.ts\nКонфигурация окружения]
+    end
+
+    subgraph ui[UI слой]
+        keyboards[workout.keyboards.ts\nTelegram клавиатуры]
+    end
+
+    main --> app_init
+    app_init --> workout_commands
+
+    workout_commands --> parser
+    workout_commands --> services
+
+    parser --> domain
+    services --> domain
+    services --> repositories
+
+    repositories --> inmemory
+
+    services --> api
+    services --> ui
+    services --> formatters
