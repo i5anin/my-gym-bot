@@ -1,0 +1,1585 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "training-bot",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:training-bot",
+      "type": "project",
+      "name": "training-bot"
+    },
+    {
+      "id": "project:training-bot/file:README.md",
+      "type": "file",
+      "path": "README.md",
+      "sha256": "c6510435a34a13ddf20fcee96293c62a67cf75940b168f04c30496752b30de80",
+      "bytes": 2536
+    },
+    {
+      "id": "project:training-bot/file:ecosystem.config.js",
+      "type": "file",
+      "path": "ecosystem.config.js",
+      "sha256": "02e95a5e0367b7db60c4460515e8aad584cc750dcca999987b6c0c72cb3e200a",
+      "bytes": 988
+    },
+    {
+      "id": "project:training-bot/file:eslint.config.mjs",
+      "type": "file",
+      "path": "eslint.config.mjs",
+      "sha256": "5b836c8a3fefeed3222bb431d124085ab1f083fb132cafbe36caba7c1c463a63",
+      "bytes": 1839
+    },
+    {
+      "id": "project:training-bot/file:github/COMMIT_TEMPLATE.md",
+      "type": "file",
+      "path": "github/COMMIT_TEMPLATE.md"
+    },
+    {
+      "id": "project:training-bot/file:github/git-changes-report.module.js",
+      "type": "file",
+      "path": "github/git-changes-report.module.js",
+      "sha256": "f8e4308c4f404bd38048a761ec498f2b29a791caf838b9e1ddf80876c13bea25",
+      "bytes": 1799
+    },
+    {
+      "id": "project:training-bot/file:link-pm2.ps1",
+      "type": "file",
+      "path": "link-pm2.ps1",
+      "sha256": "58d6c26c1947d9b919012c0a1c22e9b414506696ed64b3cba599d7791a6e79a1",
+      "bytes": 334
+    },
+    {
+      "id": "project:training-bot/file:package.json",
+      "type": "file",
+      "path": "package.json",
+      "sha256": "d86faff057e92e461a43e2c6135854e106e4ab779a8ec3319daad2c1bf5181cb",
+      "bytes": 2615
+    },
+    {
+      "id": "project:training-bot/file:src/app/app.module.ts",
+      "type": "file",
+      "path": "src/app/app.module.ts",
+      "sha256": "91809fe60343569b598836aa28d3ac2022d07e04fd2ffb81cd5128786f992173",
+      "bytes": 680
+    },
+    {
+      "id": "project:training-bot/file:src/app/bot/bot.module.ts",
+      "type": "file",
+      "path": "src/app/bot/bot.module.ts",
+      "sha256": "76862a48771f9d813a143e1f20987472f61359b057fc7820d86d3fca06c2081f",
+      "bytes": 569
+    },
+    {
+      "id": "project:training-bot/file:src/app/bot/bot.provider.ts",
+      "type": "file",
+      "path": "src/app/bot/bot.provider.ts",
+      "sha256": "3e9cacdcd6af04e1e5591f0885594cc806d7e654d388c24184cfe58127e5eb33",
+      "bytes": 1217
+    },
+    {
+      "id": "project:training-bot/file:src/app/bot/bot.service.ts",
+      "type": "file",
+      "path": "src/app/bot/bot.service.ts",
+      "sha256": "afec47593e9d6a199b4bf081fe6c6e2901a304db60008d5bdbcb54b4fe646633",
+      "bytes": 2561
+    },
+    {
+      "id": "project:training-bot/file:src/app/config/env.loader.ts",
+      "type": "file",
+      "path": "src/app/config/env.loader.ts",
+      "sha256": "44fb7e1e1361cb8be0dc44cb9618639a182e22bd2bb5cd279bcc99e7810d0af3",
+      "bytes": 1650
+    },
+    {
+      "id": "project:training-bot/file:src/commands/workout.commands.ts",
+      "type": "file",
+      "path": "src/commands/workout.commands.ts",
+      "sha256": "2abd17686a20661c609e92634373f0fbb10d54e98762c8f9de2874efd8f3b75a",
+      "bytes": 9304
+    },
+    {
+      "id": "project:training-bot/file:src/config/env.schema.ts",
+      "type": "file",
+      "path": "src/config/env.schema.ts",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "id": "project:training-bot/file:src/domain/workout.split-keywords.ts",
+      "type": "file",
+      "path": "src/domain/workout.split-keywords.ts",
+      "sha256": "0781d12d9f03ee18bb974fa2b3a53df25b1c8114de05e4f5605b9740f069c524",
+      "bytes": 745
+    },
+    {
+      "id": "project:training-bot/file:src/domain/workout.types.ts",
+      "type": "file",
+      "path": "src/domain/workout.types.ts",
+      "sha256": "af602f0e9d0cbbd78ebc8baec20cca44761d5fe371a835ba2fcc5083395b6901",
+      "bytes": 870
+    },
+    {
+      "id": "project:training-bot/file:src/features/trainings/application/training-flow.service.ts",
+      "type": "file",
+      "path": "src/features/trainings/application/training-flow.service.ts",
+      "sha256": "bccf7bf07295e3bc9996d022a20190c610da62a57e9bf71144686405578fb77f",
+      "bytes": 1565
+    },
+    {
+      "id": "project:training-bot/file:src/features/trainings/application/training-use-cases.service.ts",
+      "type": "file",
+      "path": "src/features/trainings/application/training-use-cases.service.ts",
+      "sha256": "0f1a571d7df8ba61c27a92a2721dd2f8f1feac7f857e3f169529d017336aec39",
+      "bytes": 603
+    },
+    {
+      "id": "project:training-bot/file:src/features/trainings/domain/training.count.ts",
+      "type": "file",
+      "path": "src/features/trainings/domain/training.count.ts",
+      "sha256": "4a48b9eee447c18e792da73fd10159b429b08644a4a279510a242cdfc25d06b9",
+      "bytes": 413
+    },
+    {
+      "id": "project:training-bot/file:src/features/trainings/domain/training.entity.ts",
+      "type": "file",
+      "path": "src/features/trainings/domain/training.entity.ts",
+      "sha256": "c991099a0bba7bfcca0f6970444b590bf3783a01fd9ab98fdc7aad0e0978a0f9",
+      "bytes": 247
+    },
+    {
+      "id": "project:training-bot/file:src/features/trainings/domain/training.name.ts",
+      "type": "file",
+      "path": "src/features/trainings/domain/training.name.ts",
+      "sha256": "d616e695e3169998ef1a65f27185bb0cbc46518792ee771a5bd79a7dfd849572",
+      "bytes": 300
+    },
+    {
+      "id": "project:training-bot/file:src/features/trainings/infrastructure/json-file.storage.ts",
+      "type": "file",
+      "path": "src/features/trainings/infrastructure/json-file.storage.ts",
+      "sha256": "12b03f97c19c49a7159da265df876d48c7d727258bd5028024431b703fba7857",
+      "bytes": 1433
+    },
+    {
+      "id": "project:training-bot/file:src/features/trainings/infrastructure/training.repository.ts",
+      "type": "file",
+      "path": "src/features/trainings/infrastructure/training.repository.ts",
+      "sha256": "6ff30c33bae8078b4386d3e354aab20f82c4082dca8b7eae3ad3b0b907798f0a",
+      "bytes": 1887
+    },
+    {
+      "id": "project:training-bot/file:src/features/trainings/presentation/trainings.update-handler.ts",
+      "type": "file",
+      "path": "src/features/trainings/presentation/trainings.update-handler.ts",
+      "sha256": "c75d0bfce3e7b17c539c8ab1f95b3f06f8aa707b1d5d2691f43272e515a96aac",
+      "bytes": 2025
+    },
+    {
+      "id": "project:training-bot/file:src/features/trainings/trainings.module.ts",
+      "type": "file",
+      "path": "src/features/trainings/trainings.module.ts",
+      "sha256": "fe29e00103661af41c844e167916f402f83c854e5906b74734c324e996f4a615",
+      "bytes": 796
+    },
+    {
+      "id": "project:training-bot/file:src/formatters/workout.formatter.ts",
+      "type": "file",
+      "path": "src/formatters/workout.formatter.ts",
+      "sha256": "90909b0fd2bcbed7281954a80a941b01299d04ab64decdea830512444083a182",
+      "bytes": 5695
+    },
+    {
+      "id": "project:training-bot/file:src/main.ts",
+      "type": "file",
+      "path": "src/main.ts",
+      "sha256": "68535dbc34c165d6478bf00803abaebf38591114146bfd56485096f970bedbf9",
+      "bytes": 1304
+    },
+    {
+      "id": "project:training-bot/file:src/parser/workout-line.parser.ts",
+      "type": "file",
+      "path": "src/parser/workout-line.parser.ts",
+      "sha256": "2a0858841a65cedfe523c370f77355a72099bff425342da1d7806c0d04d6bb2d",
+      "bytes": 4864
+    },
+    {
+      "id": "project:training-bot/file:src/repositories/in-memory/in-memory-workout-session.repository.ts",
+      "type": "file",
+      "path": "src/repositories/in-memory/in-memory-workout-session.repository.ts",
+      "sha256": "94efa9543950180fcec2b0536161ef7f505ffcaf575b5c357c867700750d6675",
+      "bytes": 2103
+    },
+    {
+      "id": "project:training-bot/file:src/repositories/in-memory/in-memory-workout.repository.ts",
+      "type": "file",
+      "path": "src/repositories/in-memory/in-memory-workout.repository.ts",
+      "sha256": "9b8e2e091832e6e92a85602133a6ebba8b99c2d63a881f37e481171c1ed7d69f",
+      "bytes": 1659
+    },
+    {
+      "id": "project:training-bot/file:src/repositories/workout-session.repository.ts",
+      "type": "file",
+      "path": "src/repositories/workout-session.repository.ts",
+      "sha256": "ad407b6d1deb59b4b5a1fcecef28ff9dda8b797599e1843559debad6e26b8af5",
+      "bytes": 242
+    },
+    {
+      "id": "project:training-bot/file:src/repositories/workout.repository.ts",
+      "type": "file",
+      "path": "src/repositories/workout.repository.ts",
+      "sha256": "0a9f89274c2cad4234688036925d37a0a45d985640871dac155cf830f9928f66",
+      "bytes": 143
+    },
+    {
+      "id": "project:training-bot/file:src/services/workout-session.service.ts",
+      "type": "file",
+      "path": "src/services/workout-session.service.ts",
+      "sha256": "d878762ef91cc0076382591a93332b4d6e7ec22bc3b6a6599b38da91832ae709",
+      "bytes": 10749
+    },
+    {
+      "id": "project:training-bot/file:src/shared/api/axios.instance.ts",
+      "type": "file",
+      "path": "src/shared/api/axios.instance.ts",
+      "sha256": "391b4de7f88f7d5d3a7df7b530fd202ce01a327a9979a9adba520d52d9196a4b",
+      "bytes": 190
+    },
+    {
+      "id": "project:training-bot/file:src/shared/api/commands.api.ts",
+      "type": "file",
+      "path": "src/shared/api/commands.api.ts",
+      "sha256": "011c73f3fe84780632d63f6695e79a1c9d044d9a91f25f350273aa4c665ed43c",
+      "bytes": 2063
+    },
+    {
+      "id": "project:training-bot/file:src/shared/api/index.ts",
+      "type": "file",
+      "path": "src/shared/api/index.ts",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "id": "project:training-bot/file:src/shared/config/env.ts",
+      "type": "file",
+      "path": "src/shared/config/env.ts",
+      "sha256": "8caf30da34e40dafe48016a52ff3ec4a055efad029a7515a1fc9ce8ed072e279",
+      "bytes": 3515
+    },
+    {
+      "id": "project:training-bot/file:src/shared/utils/colorize.ts",
+      "type": "file",
+      "path": "src/shared/utils/colorize.ts",
+      "sha256": "90fb1d48500b499b323e557a7eecde95a5fd37a5484e79198b75bb93348157f1",
+      "bytes": 997
+    },
+    {
+      "id": "project:training-bot/file:src/ui/workout.keyboards.ts",
+      "type": "file",
+      "path": "src/ui/workout.keyboards.ts",
+      "sha256": "791fafd1d595a7319314bcbb5e5b5a0283fa735a4cd8a0dbf547857bf0a9d8f2",
+      "bytes": 3093
+    },
+    {
+      "id": "package:npm:@nestjs/common",
+      "type": "package",
+      "name": "@nestjs/common",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/config",
+      "type": "package",
+      "name": "@nestjs/config",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/core",
+      "type": "package",
+      "name": "@nestjs/core",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/platform-express",
+      "type": "package",
+      "name": "@nestjs/platform-express",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@pm2/io",
+      "type": "package",
+      "name": "@pm2/io",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:axios",
+      "type": "package",
+      "name": "axios",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:chalk",
+      "type": "package",
+      "name": "chalk",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:dotenv",
+      "type": "package",
+      "name": "dotenv",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:grammy",
+      "type": "package",
+      "name": "grammy",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:reflect-metadata",
+      "type": "package",
+      "name": "reflect-metadata",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:rxjs",
+      "type": "package",
+      "name": "rxjs",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:typescript-eslint",
+      "type": "package",
+      "name": "typescript-eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@angular-devkit/core",
+      "type": "package",
+      "name": "@angular-devkit/core",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@eslint/eslintrc",
+      "type": "package",
+      "name": "@eslint/eslintrc",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@eslint/js",
+      "type": "package",
+      "name": "@eslint/js",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@grammyjs/types",
+      "type": "package",
+      "name": "@grammyjs/types",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/cli",
+      "type": "package",
+      "name": "@nestjs/cli",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/schematics",
+      "type": "package",
+      "name": "@nestjs/schematics",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/testing",
+      "type": "package",
+      "name": "@nestjs/testing",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@swc/cli",
+      "type": "package",
+      "name": "@swc/cli",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@swc/core",
+      "type": "package",
+      "name": "@swc/core",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/express",
+      "type": "package",
+      "name": "@types/express",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/jest",
+      "type": "package",
+      "name": "@types/jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/node",
+      "type": "package",
+      "name": "@types/node",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/supertest",
+      "type": "package",
+      "name": "@types/supertest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@typescript-eslint/eslint-plugin",
+      "type": "package",
+      "name": "@typescript-eslint/eslint-plugin",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@typescript-eslint/parser",
+      "type": "package",
+      "name": "@typescript-eslint/parser",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:cpx",
+      "type": "package",
+      "name": "cpx",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint",
+      "type": "package",
+      "name": "eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-config-prettier",
+      "type": "package",
+      "name": "eslint-config-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-jsdoc",
+      "type": "package",
+      "name": "eslint-plugin-jsdoc",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-prettier",
+      "type": "package",
+      "name": "eslint-plugin-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-unused-imports",
+      "type": "package",
+      "name": "eslint-plugin-unused-imports",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:globals",
+      "type": "package",
+      "name": "globals",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:jest",
+      "type": "package",
+      "name": "jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:pm2",
+      "type": "package",
+      "name": "pm2",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:prettier",
+      "type": "package",
+      "name": "prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:source-map-support",
+      "type": "package",
+      "name": "source-map-support",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:supertest",
+      "type": "package",
+      "name": "supertest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:ts-jest",
+      "type": "package",
+      "name": "ts-jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:ts-loader",
+      "type": "package",
+      "name": "ts-loader",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:ts-node",
+      "type": "package",
+      "name": "ts-node",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:ts-prune",
+      "type": "package",
+      "name": "ts-prune",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:tsconfig-paths",
+      "type": "package",
+      "name": "tsconfig-paths",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:typescript",
+      "type": "package",
+      "name": "typescript",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:unimported",
+      "type": "package",
+      "name": "unimported",
+      "ecosystem": "npm"
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:ecosystem.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "ecosystem.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:eslint.config.mjs",
+      "relation": "contains",
+      "evidence": {
+        "path": "eslint.config.mjs"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:github/COMMIT_TEMPLATE.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/COMMIT_TEMPLATE.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:github/git-changes-report.module.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/git-changes-report.module.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:link-pm2.ps1",
+      "relation": "contains",
+      "evidence": {
+        "path": "link-pm2.ps1"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/app/app.module.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/app/app.module.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/app/bot/bot.module.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/app/bot/bot.module.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/app/bot/bot.provider.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/app/bot/bot.provider.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/app/bot/bot.service.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/app/bot/bot.service.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/app/config/env.loader.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/app/config/env.loader.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/commands/workout.commands.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/commands/workout.commands.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/config/env.schema.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/config/env.schema.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/domain/workout.split-keywords.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/domain/workout.split-keywords.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/domain/workout.types.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/domain/workout.types.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/features/trainings/application/training-flow.service.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/features/trainings/application/training-flow.service.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/features/trainings/application/training-use-cases.service.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/features/trainings/application/training-use-cases.service.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/features/trainings/domain/training.count.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/features/trainings/domain/training.count.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/features/trainings/domain/training.entity.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/features/trainings/domain/training.entity.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/features/trainings/domain/training.name.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/features/trainings/domain/training.name.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/features/trainings/infrastructure/json-file.storage.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/features/trainings/infrastructure/json-file.storage.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/features/trainings/infrastructure/training.repository.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/features/trainings/infrastructure/training.repository.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/features/trainings/presentation/trainings.update-handler.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/features/trainings/presentation/trainings.update-handler.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/features/trainings/trainings.module.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/features/trainings/trainings.module.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/formatters/workout.formatter.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/formatters/workout.formatter.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/main.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/main.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/parser/workout-line.parser.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/parser/workout-line.parser.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/repositories/in-memory/in-memory-workout-session.repository.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/repositories/in-memory/in-memory-workout-session.repository.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/repositories/in-memory/in-memory-workout.repository.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/repositories/in-memory/in-memory-workout.repository.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/repositories/workout-session.repository.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/repositories/workout-session.repository.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/repositories/workout.repository.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/repositories/workout.repository.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/services/workout-session.service.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/services/workout-session.service.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/shared/api/axios.instance.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/shared/api/axios.instance.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/shared/api/commands.api.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/shared/api/commands.api.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/shared/api/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/shared/api/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/shared/config/env.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/shared/config/env.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/shared/utils/colorize.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/shared/utils/colorize.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot",
+      "target": "project:training-bot/file:src/ui/workout.keyboards.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/ui/workout.keyboards.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:training-bot/file:src/main.ts",
+      "target": "project:training-bot/file:src/shared/config/env.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/main.ts",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/main.ts",
+      "target": "project:training-bot/file:src/app/app.module.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/main.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/app/bot/bot.module.ts",
+      "target": "project:training-bot/file:src/app/bot/bot.service.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/app/bot/bot.module.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/repositories/in-memory/in-memory-workout-session.repository.ts",
+      "target": "project:training-bot/file:src/repositories/workout-session.repository.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/repositories/in-memory/in-memory-workout-session.repository.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/repositories/in-memory/in-memory-workout.repository.ts",
+      "target": "project:training-bot/file:src/repositories/workout.repository.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/repositories/in-memory/in-memory-workout.repository.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/shared/api/commands.api.ts",
+      "target": "project:training-bot/file:src/shared/api/axios.instance.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/shared/api/commands.api.ts",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/features/trainings/application/training-flow.service.ts",
+      "target": "project:training-bot/file:src/features/trainings/domain/training.name.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/features/trainings/application/training-flow.service.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/features/trainings/application/training-flow.service.ts",
+      "target": "project:training-bot/file:src/features/trainings/domain/training.count.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/features/trainings/application/training-flow.service.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/features/trainings/application/training-flow.service.ts",
+      "target": "project:training-bot/file:src/features/trainings/application/training-use-cases.service.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/features/trainings/application/training-flow.service.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/features/trainings/application/training-use-cases.service.ts",
+      "target": "project:training-bot/file:src/features/trainings/infrastructure/training.repository.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/features/trainings/application/training-use-cases.service.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/features/trainings/application/training-use-cases.service.ts",
+      "target": "project:training-bot/file:src/features/trainings/domain/training.name.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/features/trainings/application/training-use-cases.service.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/features/trainings/application/training-use-cases.service.ts",
+      "target": "project:training-bot/file:src/features/trainings/domain/training.entity.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/features/trainings/application/training-use-cases.service.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/features/trainings/domain/training.entity.ts",
+      "target": "project:training-bot/file:src/features/trainings/domain/training.name.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/features/trainings/domain/training.entity.ts",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/features/trainings/infrastructure/training.repository.ts",
+      "target": "project:training-bot/file:src/features/trainings/infrastructure/json-file.storage.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/features/trainings/infrastructure/training.repository.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/features/trainings/infrastructure/training.repository.ts",
+      "target": "project:training-bot/file:src/features/trainings/domain/training.entity.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/features/trainings/infrastructure/training.repository.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:src/features/trainings/infrastructure/training.repository.ts",
+      "target": "project:training-bot/file:src/features/trainings/domain/training.name.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/features/trainings/infrastructure/training.repository.ts",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@nestjs/common",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 23
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@nestjs/config",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 24
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@nestjs/core",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 25
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@nestjs/platform-express",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 26
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@pm2/io",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 27
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:axios",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 28
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:chalk",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 29
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:dotenv",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 30
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:grammy",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 31
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:reflect-metadata",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 32
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:rxjs",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 33
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:typescript-eslint",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 34
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@angular-devkit/core",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 37
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@eslint/eslintrc",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 38
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@eslint/js",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 39
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@grammyjs/types",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 40
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@nestjs/cli",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 41
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@nestjs/schematics",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 42
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@nestjs/testing",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 43
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@swc/cli",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 44
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@swc/core",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 45
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@types/express",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 46
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@types/jest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 47
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@types/node",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 48
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@types/supertest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 49
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@typescript-eslint/eslint-plugin",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 50
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:@typescript-eslint/parser",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 51
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:cpx",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 52
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 53
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:eslint-config-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 54
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:eslint-plugin-jsdoc",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 55
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:eslint-plugin-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 56
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:eslint-plugin-unused-imports",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 57
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:globals",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 58
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:jest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 59
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:pm2",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 60
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 61
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:source-map-support",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 62
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:supertest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 63
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:ts-jest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 64
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:ts-loader",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 65
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:ts-node",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 66
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:ts-prune",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 67
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:tsconfig-paths",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 68
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:typescript",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 69
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:training-bot/file:package.json",
+      "target": "package:npm:unimported",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 70
+      },
+      "method": "manifest"
+    }
+  ]
+}
