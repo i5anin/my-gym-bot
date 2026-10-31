@@ -20,7 +20,6 @@ lerna-debug.log*
 /.nyc_output
 
 # IDEs and editors
-/.idea
 .project
 .classpath
 .c9/
@@ -55,3 +54,9 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+.idea/*
+!.idea/.name
+!.idea/icon.svg
+!.idea/runConfigurations/
+!.idea/runConfigurations/*.xml
