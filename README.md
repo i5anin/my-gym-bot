@@ -1,5 +1,7 @@
 # 📌 Телеграм-бот для сбора данных сотрудников  
 
+**ЦКП:** Запись тренировок через личного Telegram-бота с последующим обращением к тренировочным данным.
+
 [![wakatime](https://wakatime.com/badge/github/i5anin/telegram-bot__pf-forum.svg)](https://wakatime.com/badge/github/i5anin/telegram-bot__pf-forum)  
 
 Система сбора, анализа и отправки различных метрик и статистики по работникам предприятия через Telegram.
